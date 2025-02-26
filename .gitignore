@@ -31,3 +31,12 @@ poetry.lock
 # Logs and test cache
 pytest_cache/
 
+# Rust build files
+target/
+
+# Cargo lock file (optional for workspaces)
+Cargo.lock
+
+# Rust-specific files
+**/*.rs.bk
+
